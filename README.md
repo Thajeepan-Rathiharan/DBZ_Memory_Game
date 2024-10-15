@@ -36,7 +36,7 @@ Don't worry you can click on the page and press the "Restart" button to reattemp
 
 ## Features of the site     
 * Fun memory game for anyone.
-* Reponsive as it works on desktops and tablets.
+* I have made it responsive, so it works on desktops, tablets and mobile phone.
 
 ## Coding Languages used to create this
 * HTML
