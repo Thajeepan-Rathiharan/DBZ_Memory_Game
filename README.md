@@ -1,10 +1,10 @@
 # Dragonball Z Memory Game
 
-### [Link](https://thajeepan-rathiharan.github.io/planet_defence_game/)
+### [Link](https://thajeepan-rathiharan.github.io/DBZ_Memory_Game/)
 
 ## How to play
 
-Start by clicking on the link to go to the site.
+Start by clicking on the link above to go to the site.
 ![Homepage](IMG/1.png)
 
 You need to choose a difficulty in the menu bar, or else when you press "Start", the browser will pop up this error message.
