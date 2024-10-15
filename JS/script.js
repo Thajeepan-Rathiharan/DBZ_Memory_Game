@@ -3,11 +3,11 @@ $(document).ready(() => {
     // Images from my IMG folder.
     let pictures =
         [
-            "../IMG/goku.jpg", "../IMG/krillin.jpg", "../IMG/vegeta.jpeg",
-            "../IMG/gohan.jpg", "../IMG/roshi.jpg", ".../IMG/chichi.jpg",
-            "../IMG/yamcha.jpg", "../IMG/chiaoutzu.jpg", "../IMG/frieza.jpg",
-            "../IMG/cell.jpg", "../IMG/android18.jpg", "../IMG/kidbuu.jpg",
-            "../IMG/piccolo.jpg", "../IMG/tien.jpeg", "../IMG/trunks.jpg"
+            "./IMG/goku.jpg", "./IMG/krillin.jpg", "./IMG/vegeta.jpeg",
+            "./IMG/gohan.jpg", "./IMG/roshi.jpg", "./IMG/chichi.jpg",
+            "./IMG/yamcha.jpg", "./IMG/chiaoutzu.jpg", "./IMG/frieza.jpg",
+            "./IMG/cell.jpg", "./IMG/android18.jpg", "./IMG/kidbuu.jpg",
+            "./IMG/piccolo.jpg", "./IMG/tien.jpeg", "./IMG/trunks.jpg"
         ];
     // Timer function.
     let timer;
@@ -22,7 +22,7 @@ $(document).ready(() => {
         for (let i = 0; i < numOfPictures / 2; i++) {
             for (let y = 0; y < 2; y++) {
                 board.append("<div class='memoryCard'><img class='cardFront' src='" +
-                    pictures[i] + "'><img class='cardBack' src='./db/kugla.jpg' alt='kugla'></div>");
+                    pictures[i] + "'><img class='cardBack' src='./IMG/ball.jpg' alt='card'></div>");
             }
         }
         // Function to swap around the cards.
