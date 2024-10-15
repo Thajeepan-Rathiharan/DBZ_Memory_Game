@@ -8,10 +8,10 @@ window.addEventListener("DOMContentLoaded", game);
 //General sprite load
 var sprite = new Image();
 var spriteExplosion = new Image();
-sprite.src = 'img/save-the-universe.png';
+sprite.src = 'IMG/save-the-universe.png';
 
 window.onload = function() {
-    spriteExplosion.src = 'img/explosion_g9ncyg.png';
+    spriteExplosion.src = 'IMG/explosion_g9ncyg.png';
 };
 
 //Game
